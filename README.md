@@ -11,18 +11,18 @@ optional arguments:<br>
   -c CRACK, --crack CRACK<br>
                         Ej: --crack 21232f297a57a5a743894a0e4a801fc3<br>
   -l LISTA, --lista LISTA<br>
-                        Ej: --lista lista_de_hash.txt<br>
+                        Ej: --lista lista_de_hash.txt<br><br>
 
 
 Ejemplos:
 
 - Crackear solo un hash.<br>
-python md5tool.py -o decode -c 21232f297a57a5a743894a0e4a801fc3
+<b>python md5tool.py -o decode -c 21232f297a57a5a743894a0e4a801fc3</b>
 
 - Crackear con una lista de hash.<br>
-python md5tool.py -o decode -l hash_lista.txt
+<b>python md5tool.py -o decode -l hash_lista.txt</b>
 
 - Crear hash md5.<br>
-python md5tool.py -o encode -c admin
+<b>python md5tool.py -o encode -c admin</b>
 
 
