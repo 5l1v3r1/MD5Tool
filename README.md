@@ -3,7 +3,7 @@ crackea tu hash md5
 
 USO:
 
-usage: md5tool.py [-h] -o OPCION [-c CRACK] [-l LISTA]
+usage: md5tool.py [-h] -o OPCION [-c CRACK] [-l LISTA]<br>
 optional arguments:
   -h, --help            show this help message and exit
   -o OPCION, --opcion OPCION
