@@ -4,25 +4,25 @@ crackea tu hash md5
 USO:
 
 usage: md5tool.py [-h] -o OPCION [-c CRACK] [-l LISTA]<br>
-optional arguments:
-  -h, --help            show this help message and exit
-  -o OPCION, --opcion OPCION
-                        Ej: --opcion encode/decode]
-  -c CRACK, --crack CRACK
-                        Ej: --crack 21232f297a57a5a743894a0e4a801fc3
-  -l LISTA, --lista LISTA
-                        Ej: --lista lista_de_hash.txt
+optional arguments:<br>
+  -h, --help            show this help message and exit<br>
+  -o OPCION, --opcion OPCION<br>
+                        Ej: --opcion encode/decode]<br>
+  -c CRACK, --crack CRACK<br>
+                        Ej: --crack 21232f297a57a5a743894a0e4a801fc3<br>
+  -l LISTA, --lista LISTA<br>
+                        Ej: --lista lista_de_hash.txt<br>
 
 
 Ejemplos:
 
-- Crackear solo un hash.
+- Crackear solo un hash.<br>
 python md5tool.py -o decode -c 21232f297a57a5a743894a0e4a801fc3
 
-- Crackear con una lista de hash.
+- Crackear con una lista de hash.<br>
 python md5tool.py -o decode -l hash_lista.txt
 
-- Crear hash md5.
+- Crear hash md5.<br>
 python md5tool.py -o encode -c admin
 
 
